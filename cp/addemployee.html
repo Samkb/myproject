@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<!--external css-->
+<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="assets/css/zabuto_calendar.css">
+<link rel="stylesheet" type="text/css" href="assets/js/gritter/css/jquery.gritter.css" />
+<link rel="stylesheet" type="text/css" href="assets/lineicons/style.css">    
+
+<!-- Custom styles  -->
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/style-responsive.css" rel="stylesheet">
+<link href="assets/css/datepicker3.css" rel="stylesheet">
+<!-- <link href="assets/css/select2.min.css" rel="stylesheet">
+--><link href="assets/css/bootstrap-timepicker.min.css" rel="stylesheet">
+
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+
+
+</head>
+<body class="skin-green sidebar-mini  pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+	<div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+<div class="wrapper">
+	<header class="main-header">
+
+		
+	</header>
+
+	<div class="content-wrapper" style="min-height: 704px;">
+		<section class="content-header">
+			<h1>
+				Accounts
+			</h1>
+		</section>
+
+		<section class="content">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="box box-success">
+						<div class="box-header">	
+							<h3 class="box-title">New Account</h3>
+						</div>
+						<div class="box-body">
+							<form method="POST" action="#" accept-charset="UTF-8" enctype="multipart/form-data"><input name="_token" type="hidden" value="B0kzhrnIhfrwcyJNVCjGvE6wFDmM5hTDFjStiq0E">
+								<div class="form-group">
+									<label for="first_name">First Name</label>
+									<input class="form-control" name="first_name" type="text" id="first_name">
+								</div>
+								<div class="form-group">
+									<label for="last_name">Last Name</label>
+									<input class="form-control" name="last_name" type="text" id="last_name">
+								</div>
+								<div class="form-group">
+									<label for="birthday">Birthday</label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-calendar"></i>
+										</div>
+										<input class="form-control datepicker" data-inputmask="&#39;alias&#39;: &#39;mm/dd/yyyy&#39;" data-mask="" name="birthday" type="text" id="birthday">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="iradio_square-green checked" aria-checked="false" aria-disabled="false" style="position: relative;"><input checked="checked" name="gender" type="radio" value="M" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+									<label for="gender" class="margin">Male</label>
+									<div class="iradio_square-green" aria-checked="false" aria-disabled="false" style="position: relative;"><input name="gender" type="radio" value="F" id="gender" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+									<label for="gender" class="margin">Female</label>
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input class="form-control" name="email" type="text" id="email">
+								</div>
+								<div class="form-group">
+									<label for="telephone">Telephone</label>
+									<input class="form-control" name="telephone" type="text" id="telephone">
+								</div>
+								<div class="form-group">
+									<label for="cellphone">Cellphone</label>
+									<input class="form-control" name="cellphone" type="text" id="cellphone">
+								</div>
+								<div class="form-group">
+									<label for="local_address">Local Address</label>
+									<input class="form-control" name="local_address" type="text" id="local_address">
+								</div>
+								<div class="form-group">
+									<label for="permanent_address">Permanent Address</label>
+									<input class="form-control" name="permanent_address" type="text" id="permanent_address">
+								</div>
+								<div class="form-group">
+									<label for="employee_id">Employee ID</label>
+									<input class="form-control" name="employee_id" type="text" id="employee_id">
+								</div>
+								<div class="form-group">
+									<label for="department_id">Department</label><br>
+									<select class="form-control select2-hidden-accessible" id="department_id" name="department_id" tabindex="-1" aria-hidden="true">
+									<option value="" selected="selected"></option>
+									<option value="10">Administration</option>
+									<option value="12">Information and Communication</option>
+									<option value="19">Service Advisor</option>
+									<option value="20">Greeter</option>
+									<option value="21">Mechanic</option>
+									<option value="26">IT</option>
+									<option value="28">karimi</option>
+									<option value="29">me</option>
+									<option value="31">ADMIN/HR</option>
+									</select>
+									<span class="select2 select2-container select2-container--default" dir="ltr" style="width: 696px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-department_id-container"><span class="select2-selection__rendered" id="select2-department_id-container"><span class="select2-selection__placeholder">Select</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+								</div>
+								<div class="form-group">
+									<label for="designation_item_id">Designation</label><br>
+									<select class="form-control select2-hidden-accessible" id="designation_item_id" name="designation_item_id" tabindex="-1" aria-hidden="true"><option value="" selected="selected"></option><option value="2">Senior Web Developer</option>
+									<option value="5">Marketing Associate</option>
+									<option value="6">Sales Manager</option>
+									<option value="7">Sales Associate</option>
+									<option value="8">Admin Associate</option>
+									<option value="9">Content Manager</option>
+									<option value="11">Content Senior Writer</option>
+									<option value="13">Web Query</option>
+									</select>
+									<span class="select2 select2-container select2-container--default" dir="ltr" style="width: 696px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-designation_item_id-container"><span class="select2-selection__rendered" id="select2-designation_item_id-container"><span class="select2-selection__placeholder">Select</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+								</div>
+								<div class="form-group bootstrap-timepicker"><div class="bootstrap-timepicker-widget dropdown-menu"><table><tbody><tr><td><a href="#" data-action="incrementHour"><i class="glyphicon glyphicon-chevron-up"></i></a></td><td class="separator">&nbsp;</td><td><a href="#" data-action="incrementMinute"><i class="glyphicon glyphicon-chevron-up"></i></a></td><td class="separator">&nbsp;</td><td class="meridian-column"><a href="#" data-action="toggleMeridian"><i class="glyphicon glyphicon-chevron-up"></i></a></td></tr><tr><td><span class="bootstrap-timepicker-hour"></span></td> <td class="separator">:</td><td><span class="bootstrap-timepicker-minute"></span></td> <td class="separator">&nbsp;</td><td><span class="bootstrap-timepicker-meridian"></span></td></tr><tr><td><a href="#" data-action="decrementHour"><i class="glyphicon glyphicon-chevron-down"></i></a></td><td class="separator"></td><td><a href="#" data-action="decrementMinute"><i class="glyphicon glyphicon-chevron-down"></i></a></td><td class="separator">&nbsp;</td><td><a href="#" data-action="toggleMeridian"><i class="glyphicon glyphicon-chevron-down"></i></a></td></tr></tbody></table></div>
+								<label for="shift_start">Shift Start</label>
+								<div class="input-group">
+									<input class="form-control timepicker" name="shift_start" type="text" id="shift_start">
+									<div class="input-group-addon">
+										<i class="fa fa-clock-o"></i>
+									</div>
+								</div>
+							</div>
+							<div class="form-group bootstrap-timepicker"><div class="bootstrap-timepicker-widget dropdown-menu"><table><tbody><tr><td><a href="#" data-action="incrementHour"><i class="glyphicon glyphicon-chevron-up"></i></a></td><td class="separator">&nbsp;</td><td><a href="#" data-action="incrementMinute"><i class="glyphicon glyphicon-chevron-up"></i></a></td><td class="separator">&nbsp;</td><td class="meridian-column"><a href="#" data-action="toggleMeridian"><i class="glyphicon glyphicon-chevron-up"></i></a></td></tr><tr><td><span class="bootstrap-timepicker-hour"></span></td> <td class="separator">:</td><td><span class="bootstrap-timepicker-minute"></span></td> <td class="separator">&nbsp;</td><td><span class="bootstrap-timepicker-meridian"></span></td></tr><tr><td><a href="#" data-action="decrementHour"><i class="glyphicon glyphicon-chevron-down"></i></a></td><td class="separator"></td><td><a href="#" data-action="decrementMinute"><i class="glyphicon glyphicon-chevron-down"></i></a></td><td class="separator">&nbsp;</td><td><a href="#" data-action="toggleMeridian"><i class="glyphicon glyphicon-chevron-down"></i></a></td></tr></tbody></table></div>
+							<label for="shift_end">Shift End</label>
+							<div class="input-group">
+								<input class="form-control timepicker" name="shift_end" type="text" id="shift_end">
+								<div class="input-group-addon">
+									<i class="fa fa-clock-o"></i>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="date_hired">Date Hired</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-calendar"></i>
+								</div>
+								<input class="form-control datepicker" data-inputmask="&#39;alias&#39;: &#39;mm/dd/yyyy&#39;" data-mask="" name="date_hired" type="text" id="date_hired">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="exit_date">Exit Date</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-calendar"></i>
+								</div>
+								<input class="form-control datepicker" data-inputmask="&#39;alias&#39;: &#39;mm/dd/yyyy&#39;" data-mask="" name="exit_date" type="text" id="exit_date">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="salary">Salary</label>
+							<input class="form-control" name="salary" type="text" id="salary">
+						</div>
+						<div class="form-group">
+							<label for="profile_picture">Profile Picture</label>
+							<input name="profile_picture" type="file" id="profile_picture">
+						</div>
+						<div class="form-group">
+							<label for="role_id">Role</label><br>
+							<select class="form-control select2-hidden-accessible" id="role_id" name="role_id" tabindex="-1" aria-hidden="true"><option value="" selected="selected"></option><option value="1">Administrator</option><option value="2">Mod1</option><option value="3">Team Leader/Manager</option><option value="13">admin</option><option value="14">HR MANAGER</option><option value="18">majdi</option><option value="19">majdi11</option><option value="20">Team123</option><option value="21">sale</option><option value="24">Staff</option></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 696px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-role_id-container"><span class="select2-selection__rendered" id="select2-role_id-container"><span class="select2-selection__placeholder">Select</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+						</div>
+						<div class="form-group">
+							<label for="username">Username</label>
+							<input class="form-control" name="username" type="text" id="username">
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input class="form-control" name="password" type="password" value="" id="password">
+						</div>
+						<div class="form-group">
+							<label for="password_confirmation">Password Confirmation</label>
+							<input class="form-control" name="password_confirmation" type="password" value="" id="password_confirmation">
+						</div>
+						<div class="pull-right">
+							<input class="btn btn-success btn-flat" type="submit" value="Save">
+							<a href="#" type="button" class="btn btn-default btn-flat">Cancel</a>
+						</div>						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+<footer class="main-footer">
+	
+	
+</footer>
+
+</div>
+
+<script src="./Laravel Human Resource Management_files/jQuery-2.1.4.min.js.download"></script>
+<script src="./Laravel Human Resource Management_files/bootstrap.min.js.download"></script>
+<script src="./Laravel Human Resource Management_files/pace.min.js.download"></script>
+<script src="./Laravel Human Resource Management_files/jquery.slimscroll.min.js.download"></script>
+<script src="./Laravel Human Resource Management_files/fastclick.js.download"></script>
+<script src="./Laravel Human Resource Management_files/app.min.js.download"></script>
+<script src="./Laravel Human Resource Management_files/select2.min.js.download"></script>
+<script src="./Laravel Human Resource Management_files/jquery-ui.min.js.download"></script>
+<script src="./Laravel Human Resource Management_files/jquery.inputmask.js.download"></script>
+<script src="./Laravel Human Resource Management_files/jquery.inputmask.date.extensions.js.download"></script>
+<script src="./Laravel Human Resource Management_files/jquery.inputmask.extensions.js.download"></script>
+<script src="./Laravel Human Resource Management_files/icheck.js.download"></script>
+<script src="./Laravel Human Resource Management_files/bootstrap-datepicker.js.download"></script>
+<script src="./Laravel Human Resource Management_files/bootstrap-timepicker.min.js.download"></script>
+
+
+
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>
